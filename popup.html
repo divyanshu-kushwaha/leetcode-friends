@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Friends</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+    }
+    h3 {
+      margin: 0 0 15px 0;
+      font-size: 18px;
+      color: #333;
+      text-align: center;
+    }
+    input {
+      width: calc(100% - 20px);
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+    ul {
+      padding: 0;
+      margin: 15px 0 0 0;
+    }
+    li {
+      list-style: none;
+      padding: 8px;
+      margin: 5px 0;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    li a {
+      text-decoration: none;
+      color: #0078d4;
+      transition: color 0.3s ease;
+    }
+    li a:hover {
+      color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <h3>LeetCode Friends</h3>
+  <input type="text" id="friendUsername" placeholder="Enter username">
+  <button id="addFriend">Add Friend</button>
+  <ul id="friendList"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
